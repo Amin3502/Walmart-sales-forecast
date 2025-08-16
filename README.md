@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Walmart Sales Forecast
 
 End-to-end sales forecasting project using Python, LightGBM, and advanced feature engineering. Includes **data preprocessing**, **model selection**, **hyperparameter tuning**, and **residual analysis** to evaluate model assumptions and performance.
@@ -83,3 +84,7 @@ MIT License
 
 ---
 
+=======
+# Walmart-sales-forecast
+End-to-end Walmart sales forecasting project using Python, LightGBM, and advanced feature engineering. Includes data preprocessing, model selection, hyperparameter tuning, and a comprehensive residual analysis to evaluate model performance and assumptions.
+>>>>>>> b6e4ee334110aac7974450a3414062e1f08e0924
