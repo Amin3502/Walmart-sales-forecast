@@ -64,3 +64,38 @@ Residuals vs features (left) and vs fitted values (right):
 
 ---
 
+## How to Run
+
+Follow these steps to set up and run the project locally.
+
+### 1. Clone the repository
+git clone https://github.com/Amin3502/Walmart-sales-forecast.git
+cd Walmart-sales-forecast
+
+### 2. Create a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Run the notebook
+Open Jupyter Notebook or Jupyter Lab and navigate to:
+notebooks/your_notebook_name.ipynb
+Run all cells to train the model and see results.
+
+### 5. View generated figures
+After running the notebook, residual plots will be saved in:
+reports/figures/
+You can also see example plots below.
+
+---
+
+## Example Plots
+
+### Residuals vs Fitted
+![Residuals vs Fitted](reports/figures/residuals_vs_fitted.png)
+
+### Residuals vs Features
+![Residuals vs Features](reports/figures/residuals_vs_features.png)
