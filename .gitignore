@@ -1,0 +1,18 @@
+# Python & Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv
+venv/
+ENV/
+*.egg-info/
+
+# Data & models (portfolio-safe)
+data/
+models/
+reports/figures/*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
