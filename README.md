@@ -15,16 +15,27 @@ End-to-end sales forecasting project using Python, LightGBM, and advanced featur
 
 ## 📂 Project Structure
 ├─ notebooks/
+
 │ └─ walmart_sales_forecast.ipynb
-├─ src/ # utility functions (optional)
+
+├─ src/ # utility functions
+
 ├─ data/ # (ignored) raw and intermediate data
+
 ├─ models/ # (ignored) trained models
+
 ├─ reports/
+
 │ └─ figures/
+
 │ ├─ residuals_vs_features.png
+
 │ └─ residuals_vs_fitted.png
+
 ├─ requirements.txt
+
 ├─ .gitignore
+
 └─ README.md
 
 
@@ -53,38 +64,3 @@ Residuals vs features (left) and vs fitted values (right):
 
 ---
 
-## 🚀 How to run
-```bash
-# 1) Create environment
-python -m venv .venv
-# Windows PowerShell:
-. .\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-
-# 2) Launch notebook
-jupyter notebook notebooks/walmart_sales_forecast.ipynb
-
-📈 Results
-
-Cross-validation metric: [add here]
-
-Test set metric: [add here]
-
-📄 License
-
-MIT License
-
----
-
-## 2️⃣ Save the file
-- **File name:** `README.md`
-- **Save as type:** All Files
-- **Encoding:** UTF-8
-- **Location:** `C:\Users\Rahil\WalmartForecast`
-
----
-
-=======
-# Walmart-sales-forecast
-End-to-end Walmart sales forecasting project using Python, LightGBM, and advanced feature engineering. Includes data preprocessing, model selection, hyperparameter tuning, and a comprehensive residual analysis to evaluate model performance and assumptions.
->>>>>>> b6e4ee334110aac7974450a3414062e1f08e0924
