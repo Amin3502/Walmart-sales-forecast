@@ -99,3 +99,17 @@ You can also see example plots below.
 
 ### Residuals vs Features
 ![Residuals vs Features](reports/figures/residuals_vs_features.png)
+
+### Residual Diagnostics Interpretation
+
+- **Non-linearity**:  
+  Slight curvature in the residuals vs fitted values plot, particularly at low fitted values, suggesting the model may not fully capture the relationship for some ranges.
+
+- **Heteroskedasticity**:  
+  A funnel-shaped spread of residuals is visible — variance increases as fitted values grow. This indicates heteroskedasticity, meaning prediction errors are larger for higher sales values.
+
+- **Outliers**:  
+  Several extreme residuals, especially for high fitted values and certain stores/departments, suggest the presence of potential outliers that may warrant further investigation.
+
+**Recommendation:**  
+Consider applying variance-stabilizing transformations (e.g., log transformation), re-specifying the model to address non-linearity, or investigating influential data points to reduce the impact of outliers.
